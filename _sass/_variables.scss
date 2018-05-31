@@ -1,0 +1,17 @@
+//Custom SCSS variables
+$color-brand-primary: #173645;
+
+//Bootstrap variable overrides
+$body-color: #0c0c0c;
+$theme-colors: (
+  "primary": $color-brand-primary,
+  "light": #ffffff,
+  "dark": $color-brand-primary,
+  "cta": #d62b1b
+);
+
+$headings-font-weight: 600;
+
+$border-radius: .75rem;
+$border-radius-lg: .9rem;
+$border-radius-sm: .6rem;

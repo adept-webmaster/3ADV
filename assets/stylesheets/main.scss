@@ -1,7 +1,13 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# These 3 dashes are Jekyll front matter so it can compile SCSS
+# Main SCSS file to import all the necessary SCSS partials.
+# This gets compiled in _site/ as css/main.css
+# If you create a new SCSS partial, import it in this file.
 ---
 @charset "utf-8";
 
+//Custom imports
+@import "variables";
+
 // Custom bootstrap variables must be set or imported *before* bootstrap.
-@import "../vendor/bundle/gems/bootstrap-4.1.1/assets/stylesheets/_bootstrap";
+@import "bootstrap";
