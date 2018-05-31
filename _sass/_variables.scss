@@ -2,6 +2,7 @@
 $color-brand-primary: #173645;
 
 //Bootstrap variable overrides
+/*===== COLOURS =====*/
 $body-color: #0c0c0c;
 $theme-colors: (
   "primary": $color-brand-primary,
@@ -10,8 +11,14 @@ $theme-colors: (
   "cta": #d62b1b
 );
 
-$headings-font-weight: 600;
+/*===== TYPOGRAPHY =====*/
+$font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont,
+                         "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+                         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-weight-normal: 500;
+$headings-font-weight: 700;
 
+/*===== BORDERS =====*/
 $border-radius: .75rem;
 $border-radius-lg: .9rem;
 $border-radius-sm: .6rem;

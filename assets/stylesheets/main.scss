@@ -7,7 +7,13 @@
 @charset "utf-8";
 
 //Custom imports
+/*===== HELPERS =====*/
 @import "variables";
+@import "typography";
+
+/*===== COMPONENTS =====*/
+@import "navbar";
+//End custom imports
 
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
