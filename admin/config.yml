@@ -1,7 +1,6 @@
 backend:
   name: github
   repo: liamjcooper/3ADV
-  site_domain: angry-mirzakhani-096f79.netlify.com
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
@@ -16,7 +15,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Category", name: "categories", widget: "string"}
