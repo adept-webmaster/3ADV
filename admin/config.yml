@@ -1,5 +1,6 @@
 backend:
   name: github
+  repo: liamjcooper/3ADV
   site_domain: angry-mirzakhani-096f79.netlify.com
 
 # This line should *not* be indented
@@ -19,3 +20,4 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Category", name: "categories", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
