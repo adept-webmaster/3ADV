@@ -1,0 +1,7 @@
+<div class="jumbotron jumbotron-fluid"
+style="background: url('images/{{ include.bg_image }}') no-repeat {{ include.bg_position }} / {{ include.bg_size }}; color: {% if include.text_color %}{{ include.text_color }};{% else %}#ffffff;{% endif %} padding: 10rem 0;">
+  <div class="d-flex flex-column mx-auto col-lg-6 text-center" style="background: rgba(0,0,0,0.5); padding: 4rem;">
+    <h2 class="m-0">{{ include.heading }}</h1>
+    <p class="lead m-0">{{ include.lead }}</p>
+  </div>
+</div>

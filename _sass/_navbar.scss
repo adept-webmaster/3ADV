@@ -1,3 +1,11 @@
 li.nav-item {
   text-transform: uppercase;
+
+  .dropdown-menu {
+    left: -100px;
+  }
+
+  &:last-child > .nav-link {
+    padding-right: 0;
+  }
 }

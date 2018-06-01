@@ -1,7 +1,7 @@
 ---
 layout: static-page
-title: About Us
-permalink: /about/
+title: Contact Us
+permalink: /contact/
 show: true
 ---
 

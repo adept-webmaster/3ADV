@@ -3,13 +3,19 @@
 # Main SCSS file to import all the necessary SCSS partials.
 # This gets compiled in _site/ as css/main.css
 # If you create a new SCSS partial, import it in this file.
+# Be aware of the vendor Ruby Gem locations. Could not find a way
+# around importing just the gem name.
 ---
 @charset "utf-8";
+
+/*===== VENDOR STUFF =====*/
+@import "../vendor/bundle/gems/hamburgers-0.9.3/_sass/hamburgers/hamburgers";
 
 //Custom imports
 /*===== HELPERS =====*/
 @import "variables";
 @import "typography";
+@import "base";
 
 /*===== COMPONENTS =====*/
 @import "navbar";
