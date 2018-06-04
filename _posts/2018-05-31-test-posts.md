@@ -1,9 +1,11 @@
 ---
-layout: post
 title: Test Posts
-date: '2018-05-31'
-categories: test
+date: 2018-05-31 00:00:00 Z
+categories:
+- test
+layout: post
 ---
+
 # Heading
 
 ## Subheading

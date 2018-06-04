@@ -1,7 +1,7 @@
 ---
-layout: static-page
 title: Contact Us
-permalink: /contact/
+permalink: "/contact/"
+layout: static-page
 show: true
 ---
 

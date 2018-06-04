@@ -1,7 +1,7 @@
 ---
-layout: static-page
 title: Services
-permalink: /services/
+permalink: "/services/"
+layout: static-page
 show: true
 ---
 
