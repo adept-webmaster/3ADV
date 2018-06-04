@@ -2,7 +2,7 @@
   <h4 class="py-4">Testimonials</h4>
   <div class="carousel-inner container px-0">
     {% for testimonial in site.testimonials %}
-      <div class="carousel-item text-center pt-3 pb-5 {% if forloop.first %} active{% endif %}">
+      <div class="carousel-item text-center pt-3 pb-5 px-5 {% if forloop.first == true %} active{% endif %}">
         <p class="m-0">
           {{ testimonial.content | markdownify }}
         </p>
