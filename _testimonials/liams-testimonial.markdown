@@ -1,7 +1,6 @@
 ---
 title: Liam's Testimonial
 date: 2018-06-04 14:08:00 Z
-author: Liam
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
