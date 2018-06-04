@@ -1,9 +1,10 @@
 //Custom SCSS variables
 $color-brand-primary: #173645;
+$color-brand-logo: #136677;
 
 /*===== VENDOR =====*/
 //Hamburgers variable overrides
-$hamburger-layer-color: #136677;
+$hamburger-layer-color: $color-brand-logo;
 $hamburger-layer-height: 2px;
 $hamburger-layer-border-radius: 0;
 
@@ -15,7 +16,8 @@ $theme-colors: (
   "primary": $color-brand-primary,
   "light": #ffffff,
   "dark": $color-brand-primary,
-  "cta": #d62b1b
+  "cta": #d62b1b,
+  "logo": $color-brand-logo
 );
 
 /*===== TYPOGRAPHY =====*/
@@ -36,3 +38,4 @@ $navbar-padding-y: .75rem;
 $nav-link-padding-x: 1.75rem;
 $navbar-nav-link-padding-x: $nav-link-padding-x;
 $navbar-light-toggler-border-color: transparent;
+$navbar-light-active-color: $color-brand-logo;
