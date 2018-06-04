@@ -1,7 +1,7 @@
 ---
-layout: static-page
 title: About Us
-permalink: /about/
+permalink: "/about/"
+layout: static-page
 show: true
 ---
 
