@@ -8,6 +8,7 @@ collections:
   testimonials:
     title: Testimonials
     output: true
+    author: Liam
   uploads:
     title: Uploads
     output: true
