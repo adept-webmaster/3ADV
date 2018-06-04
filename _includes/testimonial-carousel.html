@@ -4,8 +4,9 @@
     {% for testimonial in site.testimonials %}
       <div class="carousel-item text-center pt-3 pb-5 {% if forloop.first %} active{% endif %}">
         <p class="m-0">
-          {{ testimonial.content }}
+          {{ testimonial.content | markdownify }}
         </p>
+        <span>&#8210; {{ testimonial.author }}</span>
       </div>
     {% endfor %}
   </div>
