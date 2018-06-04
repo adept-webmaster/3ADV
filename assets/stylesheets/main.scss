@@ -3,9 +3,6 @@
 
 @charset "utf-8";
 
-/*===== VENDOR STUFF =====*/
-@import "../vendor/bundle/gems/hamburgers-0.9.3/_sass/hamburgers/hamburgers";
-
 //Custom imports
 /*===== HELPERS =====*/
 @import "variables";
@@ -16,5 +13,11 @@
 @import "navbar";
 //End custom imports
 
-// Custom bootstrap variables must be set or imported *before* bootstrap.
+/*===== VENDOR STUFF =====*/
+/*Vendor CSS must be imported *after* custom imports as they include variable
+overrides*/
+//Hamburgers
+@import "../vendor/bundle/gems/hamburgers-0.9.3/_sass/hamburgers/hamburgers";
+@import "../vendor/bundle/gems/hamburgers-0.9.3/_sass/hamburgers/base";
+//Bootstrap
 @import "bootstrap";

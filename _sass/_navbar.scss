@@ -1,11 +1,23 @@
-li.nav-item {
-  text-transform: uppercase;
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
 
-  .dropdown-menu {
-    left: -100px;
+.site-header {
+  @include media-breakpoint-down(md) {
+    .navbar {
+      padding: 0;
+    }
   }
 
-  &:last-child > .nav-link {
-    padding-right: 0;
+  li.nav-item {
+    text-transform: uppercase;
+
+    .dropdown-menu {
+      left: -100px;
+    }
+
+    &:last-child > .nav-link {
+      padding-right: 0;
+    }
   }
 }
