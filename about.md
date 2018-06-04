@@ -1,6 +1,7 @@
 ---
 title: About Us
 permalink: "/about/"
+position: 2
 layout: static-page
 show: true
 ---

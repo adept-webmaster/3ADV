@@ -1,6 +1,7 @@
 ---
 title: Contact Us
 permalink: "/contact/"
+position: 0
 layout: static-page
 show: true
 ---
