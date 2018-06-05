@@ -1,6 +1,6 @@
-@import "bootstrap/functions";
-@import "bootstrap/variables";
-@import "bootstrap/mixins";
+@import "vendor/bootstrap/bootstrap/functions";
+@import "vendor/bootstrap/bootstrap/variables";
+@import "vendor/bootstrap/bootstrap/mixins";
 
 .site-header {
   @include media-breakpoint-down(md) {
