@@ -1,6 +1,6 @@
 ---
 title: Welcome to My Site!
-date: 2018-05-30 13:51:30 Z
+date: 2018-05-30 13:51:00 Z
 categories:
 - jekyll
 - update
