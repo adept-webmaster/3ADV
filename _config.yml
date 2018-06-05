@@ -16,16 +16,14 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lob
   suscipit imperdiet. Proin risus felis, porta vitae tempor id, malesuada ut ipsum.
   Sed laoreet semper sapien quis varius. Mauris eu turpis lorem. Praesent nec malesuada
   diam, eu suscipit est. Duis ut consequat mauris.
-baseurl: 
-url: 
+baseurl:
+url:
 address: Contact Address
 phone: 555-555-5555
 markdown: kramdown
 theme: false
 plugins:
 - jekyll-feed
-exclude:
-- vendor
 sass:
   sass_dir: _sass
   style: compressed
