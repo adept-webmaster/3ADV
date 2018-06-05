@@ -19,7 +19,7 @@
 /*Vendor CSS must be imported *after* custom imports as they include variable
 overrides*/
 //Hamburgers
-@import "../vendor/bundle/gems/hamburgers-0.9.3/_sass/hamburgers/hamburgers";
-@import "../vendor/bundle/gems/hamburgers-0.9.3/_sass/hamburgers/base";
+@import "vendor/hamburgers/hamburgers";
+@import "vendor/hamburgers/base";
 //Bootstrap
-@import "bootstrap";
+@import "vendor/bootstrap/bootstrap";
