@@ -24,8 +24,6 @@ markdown: kramdown
 theme: false
 plugins:
 - jekyll-feed
-exclude:
-- vendor
 sass:
   sass_dir: _sass
   style: compressed
