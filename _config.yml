@@ -22,7 +22,8 @@ address: Contact Address
 phone: 555-555-5555
 markdown: kramdown
 theme: false
-exclude: [vendor]
+exclude:
+- vendor
 plugins:
 - jekyll-feed
 sass:
