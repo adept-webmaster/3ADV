@@ -2,10 +2,21 @@
 layout: default
 ---
 
-  <h1 class="post-title">{{ page.title | escape }}</h1>
+{% include hero.html
+  bg_image="main-hero.jpg"
+  bg_position="center"
+  bg_size="cover"
+  heading="One stop product solution"
+  lead="Sourcing &#9679; Product Development &#9679; Quality Management &#9679;
+  Logistcs &#9679; Distribution"
+  type="full"
+  text_align="center"
+%}
 
-  <div class="page-content">
-    {{ content }}
-  </div>
+<div class="container">
+  <div class="row">
 
-</article>
+    <h1 class="pl-3 pl-sm-0 w-100">{{ page.title | escape }}</h1>
+    <div class="col-lg-9 pl-3 pl-sm-0">
+      {{ content }}
+    </div>
