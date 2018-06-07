@@ -5,6 +5,7 @@ position: 3
 layout: static-page
 show: true
 ---
+
 {::options parse_block_html="true" /}
 <div class="col-lg-9">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sapien
