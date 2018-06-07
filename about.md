@@ -6,6 +6,8 @@ layout: static-page
 show: true
 ---
 
+{::options parse_block_html="true" /}
+<div class="col-lg-9">
 Understanding the big gap in between the western and eastern culture, Victor
 embraces the mission to provide our customers with a one-stop shop solution for
 the Chinese chain of supply. To be our customers presence in China, helping
@@ -24,4 +26,5 @@ and India.
 We have been managing projects for customers from various countries such as US,
 Brazil, Argentina, South Africa, Nigeria, Spain, UK, Poland, Austria, Slovenia,
 Romania and India, we're ready to give you a hand if you start to or already set
-up your supply chain in China. 
+up your supply chain in China.
+</div>
