@@ -1,20 +1,16 @@
 ---
-title: Services
 permalink: "/services/"
 position: 2
-layout: static-page
 show: true
+layout: static-page
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+{::options parse_block_html="true" /}
+{%- assign services = site.data.services -%}
+{% for service in services %}
+<div class="row services--row-item mb-5">
+![{{ service.image }}]({{ site.img_dir }}{{ service.image }}){: .img-fluid .img-cover .services--row-item-image }
+## {{ service.title }}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sapien turpis. In malesuada consectetur luctus. Integer eu tincidunt eros. Quisque nisi massa, congue sit amet ex sed, tempor aliquam eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec justo lorem. Vivamus porttitor urna dui, et feugiat risus ornare ac. Sed urna sem, rhoncus vitae varius quis, commodo nec nibh.
+</div>
+{% endfor %}

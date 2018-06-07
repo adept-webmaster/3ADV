@@ -3,16 +3,36 @@ layout: default
 ---
 
 {% include hero.html
-  class="jumbotron-home"
-  bg_image="uploads/hero-image.jpg"
+  class="mb-0"
+  bg_image="home-hero.jpg"
   bg_position="center"
   bg_size="cover"
   heading="One stop product solution"
-  lead="Sourcing &#9679;
-  Product Development &#9679;
-  Quality Management &#9679;
-  Logistcs &#9679;
-  Distribution"
+  lead="Sourcing &#9679; Product Development &#9679; Quality Management &#9679;
+  Logistcs &#9679; Distribution"
+  type="full"
+  text_position="center"
+  text_align="center"
 %}
 
 {% include testimonial-carousel.html %}
+
+{% include services-columns.html %}
+
+<div class="container">
+  <div class="row">
+    {% include hero.html
+      bg_image="full-sourcing-solution.jpg"
+      bg_position="left"
+      bg_size="cover"
+      heading="Full Sourcing Solution"
+      lead="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            lobortis suscipit imperdiet. Proin risus felis, porta vitae tempor
+            id, malesuada ut ipsum. Sed laoreet semper sapien quis varius.
+            Mauris eu turpis lorem. Praesent nec malesuada diam, eu suscipit
+            est. Duis ut consequat mauris."
+      text_position="right"
+      button_label="Sourcing"
+      button_link="/services"
+      overlay="true"
+    %}
