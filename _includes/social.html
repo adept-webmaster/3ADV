@@ -1,5 +1,28 @@
-<ul class="social-media-list">
-  {%- if site.address -%}<li>{{ site.address | escape }}</li>{%- endif -%}
-  {%- if site.phone -%}<li>{{ site.phone | escape }}</li>{%- endif -%}
-  {%- if site.address -%}<li>{{ site.email | escape }}</li>{%- endif -%}
+<ul class="social-media-list fa-ul">
+  {%- if site.address -%}
+    <li class="my-2">
+      <span class="fa-li">
+        <i class="fas fa-map-marker-alt"></i>
+      </span>
+      {{ site.address | escape }}
+    </li>
+  {%- endif -%}
+
+  {%- if site.phone -%}
+    <li class="my-2">
+      <span class="fa-li">
+        <i class="fas fa-phone"></i>
+      </span>
+      {{ site.phone | escape }}
+    </li>
+  {%- endif -%}
+
+  {%- if site.address -%}
+    <li class="my-2">
+      <span class="fa-li">
+        <i class="fas fa-envelope"></i>
+      </span>
+      {{ site.email | escape }}
+    </li>
+  {%- endif -%}
 </ul>
