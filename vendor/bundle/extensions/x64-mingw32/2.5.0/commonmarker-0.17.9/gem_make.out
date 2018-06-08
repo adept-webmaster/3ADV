@@ -1,5 +1,5 @@
 current directory: C:/Users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/gems/commonmarker-0.17.9/ext/commonmarker
-C:/Ruby25-x64/bin/ruby.exe -r ./siteconf20180604-22672-bvfj4t.rb extconf.rb
+C:/Ruby25-x64/bin/ruby.exe -r ./siteconf20180608-54836-1ie4e6b.rb extconf.rb
 creating Makefile
 
 current directory: C:/Users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/gems/commonmarker-0.17.9/ext/commonmarker
@@ -58,4 +58,4 @@ linking shared-object commonmarker/commonmarker.so
 
 current directory: C:/Users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/gems/commonmarker-0.17.9/ext/commonmarker
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20180604-22672-xl2z73/commonmarker
+/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20180608-54836-18uczg/commonmarker

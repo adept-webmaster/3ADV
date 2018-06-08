@@ -1,0 +1,14 @@
+current directory: C:/Users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/gems/posix-spawn-0.3.13/ext
+C:/Ruby25-x64/bin/ruby.exe -r ./siteconf20180608-32556-10h5n6k.rb extconf.rb
+
+current directory: C:/Users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/gems/posix-spawn-0.3.13/ext
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: C:/Users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/gems/posix-spawn-0.3.13/ext
+make "DESTDIR="
+make: Nothing to be done for 'default'.
+
+current directory: C:/Users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/gems/posix-spawn-0.3.13/ext
+make "DESTDIR=" install
+make: Nothing to be done for 'install'.

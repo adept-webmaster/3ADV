@@ -258,6 +258,7 @@ DEPENDENCIES
   github-pages
   hamburgers (~> 0.9.3)
   jekyll-feed
+  jekyll-redirect-from
   tzinfo-data
   wdm (~> 0.1.0)
 
