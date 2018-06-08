@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-#gem "jekyll", "~> 3.8.2"
+# gem "jekyll", "~> 3.8.3"
 
 # Bootstrap
 gem 'bootstrap', '~> 4.1.1'
@@ -24,6 +24,7 @@ gem 'hamburgers', "~> 0.9.3"
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "github-pages"
+  gem 'jekyll-redirect-from'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

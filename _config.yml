@@ -16,7 +16,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lob
   suscipit imperdiet. Proin risus felis, porta vitae tempor id, malesuada ut ipsum.
   Sed laoreet semper sapien quis varius. Mauris eu turpis lorem. Praesent nec malesuada
   diam, eu suscipit est. Duis ut consequat mauris.
-baseurl: 
+baseurl: ''
 url: https://3adv.siteleaf.net/
 address: Andrew James UK Ltd, Floor 3, 2 Lighthouse View, Spectrum Business Park,
   Seaham, SR7 7PR
@@ -29,6 +29,7 @@ exclude:
 plugins:
 - jekyll-feed
 - jekyll-redirect-from
+- github-pages
 whitelist:
 - jekyll-redirect-from
 sass:
