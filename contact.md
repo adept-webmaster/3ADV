@@ -36,5 +36,5 @@ show: true
 </div>
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe src="https://snazzymaps.com/embed/76742" class="embed-responsive-item"></iframe>
+  <iframe src="https://snazzymaps.com/embed/76983" class="embed-responsive-item"></iframe>
 </div>
