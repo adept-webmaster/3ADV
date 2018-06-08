@@ -1,7 +1,8 @@
 ---
 title: Home
 position: 0
-testimonial: this is a test-imonial
 layout: home
+redirect_to:
+- http://www.github.com
 ---
 
