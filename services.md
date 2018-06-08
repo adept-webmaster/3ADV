@@ -1,6 +1,6 @@
 ---
+title: Services
 permalink: "/services/"
-title: "Services"
 position: 2
 show: true
 layout: static-page
