@@ -40,7 +40,6 @@ plugins:
 - jekyll-feed
 - jekyll-redirect-from
 - github-pages
-- jekyll-autoprefixer
 whitelist:
 - jekyll-redirect-from
 sass:
