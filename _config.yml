@@ -32,8 +32,6 @@ assets:
     css: sass
     js: uglifier
   destination: assets
-  compression: true
-  gzip: true
 exclude:
 - vendor
 plugins:
