@@ -1,7 +1,6 @@
----
----
-
 @charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700');
 
 //Custom imports
 /*===== HELPERS =====*/
@@ -23,5 +22,26 @@ overrides*/
 //Hamburgers
 @import "vendor/hamburgers/hamburgers";
 @import "vendor/hamburgers/base";
+
+@import "fa-solid.min.css";
+@import "fontawesome.min.css";
+
 //Bootstrap
-@import "vendor/bootstrap/bootstrap";
+@import "vendor/bootstrap/bootstrap/functions";
+@import "vendor/bootstrap/bootstrap/variables";
+@import "vendor/bootstrap/bootstrap/mixins";
+
+@import "vendor/bootstrap/bootstrap/root";
+@import "vendor/bootstrap/bootstrap/reboot";
+@import "vendor/bootstrap/bootstrap/type";
+@import "vendor/bootstrap/bootstrap/images";
+@import "vendor/bootstrap/bootstrap/grid";
+@import "vendor/bootstrap/bootstrap/buttons";
+@import "vendor/bootstrap/bootstrap/transitions";
+@import "vendor/bootstrap/bootstrap/dropdown";
+@import "vendor/bootstrap/bootstrap/nav";
+@import "vendor/bootstrap/bootstrap/navbar";
+@import "vendor/bootstrap/bootstrap/jumbotron";
+@import "vendor/bootstrap/bootstrap/carousel";
+@import "vendor/bootstrap/bootstrap/utilities";
+@import "vendor/bootstrap/bootstrap/print";

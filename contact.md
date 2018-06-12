@@ -20,7 +20,7 @@ show: true
   <div class="col">
     <div class="row justify-content-between w-100 m-0">
       {% for i in (1..3) %}
-        <div class="col-3">
+        <div class="col-lg">
           <h2>Contact Us</h2>
           <ul class="list-unstyled">
             <li>Andrew James UK Ltd</li>

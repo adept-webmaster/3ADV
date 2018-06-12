@@ -22,14 +22,25 @@ address: Andrew James UK Ltd, Floor 3, 2 Lighthouse View, Spectrum Business Park
   Seaham, SR7 7PR
 phone: '0191 377 8358'
 markdown: kramdown
-theme: false
 img_dir: "/uploads/"
+assets:
+  sources:
+  - assets
+  - assets/stylesheets
+  - _sass
+  compress:
+    css: sass
+    js: uglifier
+  destination: assets
+  compression: true
+  gzip: true
 exclude:
 - vendor
 plugins:
 - jekyll-feed
 - jekyll-redirect-from
 - github-pages
+- jekyll-autoprefixer
 whitelist:
 - jekyll-redirect-from
 sass:

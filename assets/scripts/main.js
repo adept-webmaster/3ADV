@@ -1,9 +1,18 @@
-//= require jquery3
-//= require popper
-//= require bootstrap-sprockets
+//= require scripts/jquery-3.3.1.slim.min
+//= require scripts/bootstrap.min
+//= require scripts/popper
+//= require scripts/lazysizes.min
+
 $('.hamburger').click(function() {
     $(this).toggleClass('is-active');
 });
+
+window.lazySizesConfig = window.lazySizesConfig || {};
+
+lazySizesConfig.expand = 100;
+
+//page is optimized for fast onload event
+lazySizesConfig.loadMode = 1;
 
 (function ($) {
 
