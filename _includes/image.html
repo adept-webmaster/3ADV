@@ -1,5 +1,14 @@
 <img
-  src="{{ site.img_dir }}{{ include.name }}"
+  data-sizes="auto"
+  data-src="{{ site.img_dir }}{{ include.name }}"
   {% if include.alt %} alt="{{ include.alt }}"{% endif %}
   class="{% if include.class %}{{ include.class }} {% endif %}lazyload"
 />
+
+<noscript>
+  <img
+    src="{{ site.img_dir }}{{ include.name }}"
+    {% if include.alt %} alt="{{ include.alt }}"{% endif %}
+    class="{% if include.class %}{{ include.class }} {% endif %}"
+  />
+</noscript>
