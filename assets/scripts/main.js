@@ -1,8 +1,3 @@
-//= require scripts/jquery-3.3.1.slim.min
-//= require scripts/bootstrap.min
-//= require scripts/popper
-//= require scripts/lazysizes.min
-
 $('.hamburger').click(function() {
     $(this).toggleClass('is-active');
 });
