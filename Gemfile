@@ -24,9 +24,6 @@ gem 'hamburgers', "~> 0.9.3"
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-redirect-from'
-  gem "jekyll-assets"
-  gem "uglifier"
-  gem "sass"
   gem "github-pages"
 end
 

@@ -23,15 +23,6 @@ address: Andrew James UK Ltd, Floor 3, 2 Lighthouse View, Spectrum Business Park
 phone: '0191 377 8358'
 markdown: kramdown
 img_dir: "/uploads/"
-assets:
-  sources:
-  - assets
-  - assets/stylesheets
-  - _sass
-  compress:
-    css: sass
-    js: uglifier
-  destination: assets
 exclude:
 - vendor
 plugins:
@@ -43,3 +34,4 @@ whitelist:
 sass:
   sass_dir: _sass
   style: compressed
+---
