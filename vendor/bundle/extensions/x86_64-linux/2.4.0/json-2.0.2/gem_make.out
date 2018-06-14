@@ -1,0 +1,13 @@
+current directory: /mnt/c/users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/gems/json-2.0.2/ext/json
+/usr/bin/ruby2.4 -r ./siteconf20180614-28956-1mndo5z.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/c/users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/gems/json-2.0.2/ext/json
+make "DESTDIR=" clean
+
+current directory: /mnt/c/users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/gems/json-2.0.2/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /mnt/c/users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/gems/json-2.0.2/ext/json
+make "DESTDIR=" install
