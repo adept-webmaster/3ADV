@@ -2,13 +2,6 @@
   data-sizes="auto"
   data-src="{{ site.img_dir }}{{ include.name }}"
   {% if include.alt %} alt="{{ include.alt }}"{% endif %}
-  class="{% if include.class %}{{ include.class }} {% endif %}lazyload"
+  class="{% if include.class %}{{ include.class }} {% endif %}lazyload js"
+  data-expand="20"
 />
-
-<noscript>
-  <img
-    src="{{ site.img_dir }}{{ include.name }}"
-    {% if include.alt %} alt="{{ include.alt }}"{% endif %}
-    class="{% if include.class %}{{ include.class }} {% endif %}"
-  />
-</noscript>

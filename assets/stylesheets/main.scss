@@ -5,50 +5,65 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500,700');
 
+//animate
+@import "vendor/animate/_properties";
+
+@import
+  "vendor/animate/_fading-entrances/fading-entrances";
+
 //Custom imports
 /*===== HELPERS =====*/
-@import "variables";
-@import "typography";
-@import "images";
-@import "base";
+@import
+  "variables",
+  "typography",
+  "images",
+  "base";
 
 /*===== COMPONENTS =====*/
-@import "navbar";
-@import "carousel";
-@import "services";
-@import "jumbotron";
+@import
+  "navbar",
+  "carousel",
+  "services",
+  "jumbotron";
 //End custom imports
 
 /*===== VENDOR STUFF =====*/
 /*Vendor CSS must be imported *after* custom imports as they include variable
 overrides*/
 //Hamburgers
-@import "vendor/hamburgers/hamburgers";
-@import "vendor/hamburgers/base";
+@import
+  "vendor/hamburgers/hamburgers",
+  "vendor/hamburgers/base";
 
 //FontAwesome
-@import "vendor/fontawesome/variables";
-@import "vendor/fontawesome/path";
-@import "vendor/fontawesome/core";
-@import "vendor/fontawesome/mixins";
-@import "vendor/fontawesome/icons";
+@import
+  "vendor/fontawesome/variables",
+  "vendor/fontawesome/path",
+  "vendor/fontawesome/core",
+  "vendor/fontawesome/mixins";
+
+@import
+  "vendor/fontawesome/icons";
 
 //Bootstrap
-@import "vendor/bootstrap/bootstrap/functions";
-@import "vendor/bootstrap/bootstrap/variables";
-@import "vendor/bootstrap/bootstrap/mixins";
+@import
+  "vendor/bootstrap/bootstrap/functions",
+  "vendor/bootstrap/bootstrap/variables",
+  "vendor/bootstrap/bootstrap/mixins";
 
-@import "vendor/bootstrap/bootstrap/root";
-@import "vendor/bootstrap/bootstrap/reboot";
-@import "vendor/bootstrap/bootstrap/type";
-@import "vendor/bootstrap/bootstrap/images";
-@import "vendor/bootstrap/bootstrap/grid";
-@import "vendor/bootstrap/bootstrap/buttons";
-@import "vendor/bootstrap/bootstrap/transitions";
-@import "vendor/bootstrap/bootstrap/dropdown";
-@import "vendor/bootstrap/bootstrap/nav";
-@import "vendor/bootstrap/bootstrap/navbar";
-@import "vendor/bootstrap/bootstrap/jumbotron";
-@import "vendor/bootstrap/bootstrap/carousel";
-@import "vendor/bootstrap/bootstrap/utilities";
-@import "vendor/bootstrap/bootstrap/print";
+@import
+  "vendor/bootstrap/bootstrap/root",
+  "vendor/bootstrap/bootstrap/reboot",
+  "vendor/bootstrap/bootstrap/type",
+  "vendor/bootstrap/bootstrap/images",
+  "vendor/bootstrap/bootstrap/grid",
+  "vendor/bootstrap/bootstrap/buttons",
+  "vendor/bootstrap/bootstrap/transitions",
+  "vendor/bootstrap/bootstrap/dropdown",
+  "vendor/bootstrap/bootstrap/nav",
+  "vendor/bootstrap/bootstrap/navbar",
+  "vendor/bootstrap/bootstrap/jumbotron",
+  "vendor/bootstrap/bootstrap/carousel",
+  "vendor/bootstrap/bootstrap/utilities",
+  "vendor/bootstrap/bootstrap/print";
+//End vendor

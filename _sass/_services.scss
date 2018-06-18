@@ -1,4 +1,7 @@
 .services--grid-item {
+  &.lazyloaded {
+    @include fadeIn();
+  }
   .services--grid-item-image {
     height: 180px;
     object-position: left;
@@ -9,4 +12,8 @@
   .services--row-item-image {
     height: 300px;
   }
+}
+
+.services--row-item.lazyloaded {
+  @include fadeIn();
 }
