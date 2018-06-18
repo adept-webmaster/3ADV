@@ -5,6 +5,7 @@ position: 2
 show: true
 layout: static-page
 ---
+
 {::options parse_block_html="true" /}
 {%- assign services = site.data.services -%}
 {% for service in services %}
