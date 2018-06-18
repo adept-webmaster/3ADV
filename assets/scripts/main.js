@@ -4,7 +4,7 @@ $('.hamburger').click(function() {
 
 window.lazySizesConfig = window.lazySizesConfig || {};
 
-lazySizesConfig.expand = 100;
+lazySizesConfig.expand = -20;
 
 //page is optimized for fast onload event
 lazySizesConfig.loadMode = 1;

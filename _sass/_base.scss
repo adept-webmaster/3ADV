@@ -6,3 +6,31 @@ html {
   max-width: 2560px;
   margin: 0 auto;
 }
+
+// Only show when JS is not supported
+.no-js:not(html) {
+  display: none;
+
+  .no-js & {
+    display: block;
+  }
+}
+
+// Only show when JS is supported
+.js {
+  .no-js & {
+    display: none;
+  }
+}
+
+.lazyload {
+	opacity: 0;
+}
+
+.lazyloading {
+  opacity: 1 !important;
+  background: url(../../uploads/spinner.svg) no-repeat center;
+  z-index: 2 !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+}
