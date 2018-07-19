@@ -45,6 +45,10 @@ overrides*/
 @import
   "vendor/fontawesome/icons";
 
+//Floating labels
+@import
+  "vendor/floating-labels/bootstrap-float-label";
+
 //Bootstrap
 @import
   "vendor/bootstrap/bootstrap/functions",
@@ -65,5 +69,6 @@ overrides*/
   "vendor/bootstrap/bootstrap/jumbotron",
   "vendor/bootstrap/bootstrap/carousel",
   "vendor/bootstrap/bootstrap/utilities",
-  "vendor/bootstrap/bootstrap/print";
+  "vendor/bootstrap/bootstrap/print",
+  "vendor/bootstrap/bootstrap/forms";
 //End vendor
