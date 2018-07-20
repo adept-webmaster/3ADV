@@ -7,11 +7,13 @@
     {% capture service_class %}img-fluid img-cover services--grid-item-image{% endcapture %}
 
     <div class="col-lg services--grid-item mb-3 mb-lg-0{% if forloop.first %} pl-lg-0{% elsif forloop.last %} pr-lg-0{% endif %}">
-      {% include image.html name=service_image alt=service_alt class=service_class %}
-      <noscript>
-        {% include noscript-image.html name=service_image alt=service_alt class=service_class %}
-      </noscript>
-      <h2 class="h6 mt-2 text-center">{{ service.title }}</h2>
+      <a href="/services#{{ service.title | slugify }}">
+        {% include image.html name=service_image alt=service_alt class=service_class %}
+        <noscript>
+          {% include noscript-image.html name=service_image alt=service_alt class=service_class %}
+        </noscript>
+        <h2 class="h6 mt-2 text-center">{{ service.title }}</h2>
+      </a>
     </div>
   {% endfor %}
   </div>

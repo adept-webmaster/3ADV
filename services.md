@@ -7,6 +7,8 @@ layout: static-page
 ---
 
 {::options parse_block_html="true" /}
+{::options auto_ids="false" /}
+
 {%- assign services = site.data.services -%}
 {% for service in services %}
 {% capture service_image %}
@@ -25,7 +27,7 @@ layout: static-page
 {% include noscript-image.html name=service_image alt=service_title class='img-fluid img-cover services--row-item-image' %}
 {% endcapture %}
 
-<div class="row services--row-item mb-5 flex-column lazyload js" data-expand="-100">
+<div class="row services--row-item mb-5 flex-column lazyload js" id="{{ service_title | slugify }}" data-expand="-100">
 {{ service_image_include }}
 
 ## {{ service.title }}
