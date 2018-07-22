@@ -19,6 +19,10 @@ layout: static-page
 {{- service.title -}}
 {% endcapture %}
 
+{% capture service_content %}
+{{- service.content -}}
+{% endcapture %}
+
 {% capture service_image_include %}
 {% include image.html name=service_image alt=service_title class='img-fluid img-cover services--row-item-image' %}
 {% endcapture %}
@@ -31,7 +35,7 @@ layout: static-page
 {{ service_image_include }}
 
 ## {{ service.title }}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget sapien turpis. In malesuada consectetur luctus. Integer eu tincidunt eros. Quisque nisi massa, congue sit amet ex sed, tempor aliquam eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec justo lorem. Vivamus porttitor urna dui, et feugiat risus ornare ac. Sed urna sem, rhoncus vitae varius quis, commodo nec nibh.
+{{ service.content }}
 </div>
 
 <noscript>
