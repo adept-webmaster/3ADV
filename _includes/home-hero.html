@@ -18,7 +18,7 @@ style="background: {% if include.overlay %}{% if include.overlay == 'true' %}lin
                     style="background: rgba(0,0,0,0.5); padding: 4rem;"
                   {% endif %}
                 {% endif %}>
-    <h2 class="h2 {% if include.type %}{% if include.type == 'full' %}m-0{% endif %}{% endif %}">{{ include.heading }}</h2>
+    <h1 class="h2 {% if include.type %}{% if include.type == 'full' %}m-0{% endif %}{% endif %}">{{ include.heading }}</h1>
     <p class="{% if include.type %}{% if include.type == 'full' %}lead m-0{% endif %}{% endif %}">
       {{ include.lead }}
     </p>
