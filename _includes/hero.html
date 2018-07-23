@@ -21,7 +21,11 @@ style="background: {% if include.overlay %}{% if include.overlay == 'true' %}lin
     {% endif %}">
     <h2 class="h2 {% if include.type %}{% if include.type == 'full' %}m-0{% endif %}{% endif %}">{{ include.heading }}</h2>
     <p class="{% if include.type %}{% if include.type == 'full' %}lead m-0{% endif %}{% endif %}">
-      {{ include.lead }}
+      Sourcing <span class="dot">&#9679;</span>
+      Product Development <span class="dot">&#9679;</span>
+      Quality Management <span class="dot">&#9679;</span>
+      Logistics <span class="dot">&#9679;</span>
+      Shipping
     </p>
     <p class="lead">
       {% if include.button_label %}

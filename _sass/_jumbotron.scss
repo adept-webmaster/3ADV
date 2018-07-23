@@ -18,4 +18,12 @@
   .jumbotron--content-box {
     @include fadeIn();
   }
+
+  .jumbotron--content-box {
+    p > span.dot {
+      font-size: 12px;
+      position: relative;
+      bottom: 3px;
+    }
+  }
 }
