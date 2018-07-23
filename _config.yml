@@ -12,10 +12,9 @@ collections:
     title: Uploads
     output: true
 email: equalizer@3advservices.com
-description: We are 3ADV International Services Limited. We offer tailor-made
-  solutions to help you source, manufacture, inspect, consolidate and ship your
-  products.
-baseurl:
+description: We are 3ADV International Services Limited. We offer tailor-made solutions
+  to help you source, manufacture, inspect, consolidate and ship your products.
+baseurl: 
 url: https://3advservices.com
 address: Andrew James UK Ltd, Floor 3, 2 Lighthouse View, Spectrum Business Park,
   Seaham, SR7 7PR
