@@ -1,6 +1,6 @@
 <div id="servicesCarouselControls" class="carousel text-center text-light bg-primary slide mb-5 animated fadeInUp" data-ride="false" data-interval="false">
   <h2 class="py-4"><a class="text-light" href="/services">Services</a></h2>
-  <div class="carousel-inner container text-uppercase px-0">
+  <div class="carousel-inner container px-0">
     {%- assign services = site.data.services -%}
     {% for service in services %}
       <div class="carousel-item text-center pt-3 pb-5 px-5 {% if forloop.first == true %} active{% endif %}">
