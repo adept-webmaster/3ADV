@@ -12,11 +12,11 @@ collections:
     title: Uploads
     output: true
 email: equalizer@3advservices.com
-description: 3ADV are the partner of choice for your product sourcing
-  requirements. We offer tailor-made solutions to help you source, manufacture,
-  inspect, consolidate and ship your products, and our international network can
-  offer assistance and advice at any stage of the supply chain.
-baseurl:
+description: 3ADV are the partner of choice for your product sourcing requirements.
+  We offer tailor-made solutions to help you source, manufacture, inspect, consolidate
+  and ship your products, and our international network can offer assistance and advice
+  at any stage of the supply chain.
+baseurl: 
 url: 3advservices.com
 address: Andrew James UK Ltd, Floor 3, 2 Lighthouse View, Spectrum Business Park,
   Seaham, SR7 7PR
