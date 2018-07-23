@@ -11,8 +11,10 @@
 @import
   "vendor/animate/_fading-entrances/fading-entrances";
 
-//Custom imports
-/*===== HELPERS =====*/
+//Important, this import must go here
+@import
+  "vendor/bootstrap/bootstrap/functions";
+
 @import
   "variables",
   "typography",
@@ -51,7 +53,6 @@ overrides*/
 
 //Bootstrap
 @import
-  "vendor/bootstrap/bootstrap/functions",
   "vendor/bootstrap/bootstrap/variables",
   "vendor/bootstrap/bootstrap/mixins";
 

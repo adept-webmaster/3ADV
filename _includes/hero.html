@@ -3,7 +3,7 @@ data-extend="-20"
 style="background: {% if include.overlay %}{% if include.overlay == 'true' %}linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),{% endif %}{% endif %}
                     url('{{ site.img_dir }}{{ include.bg_image }}') no-repeat {{ include.bg_position }} / {{ include.bg_size }};
       color: {% if include.text_color %}{{ include.text_color }};{% else %}#ffffff;{% endif %}">
-  <div class="d-flex flex-column jumbotron--content-box
+  <div class="d-flex flex-column jumbotron--content-box py-5
     {% if include.text_position %}
       {% if include.text_position == 'center' %} mx-auto
       {% elsif include.text_position == 'right' %} ml-auto mr-0 col-md-6
@@ -13,11 +13,12 @@ style="background: {% if include.overlay %}{% if include.overlay == 'true' %}lin
     {% unless include.type == 'full' %} px-4{% endunless %}
     {% if include.text_align %}
       {% if include.text_align == 'center' %} text-center{% endif %}
-    {% endif %}" {% if include.type %}
-                  {% if include.type == 'full' %}
-                    style="background: rgba(0,0,0,0.5); padding: 4rem;"
-                  {% endif %}
-                {% endif %}>
+    {% endif %}
+    {% if include.type %}
+      {% if include.type == 'full' %}
+        bg-primary
+      {% endif %}
+    {% endif %}">
     <h2 class="h2 {% if include.type %}{% if include.type == 'full' %}m-0{% endif %}{% endif %}">{{ include.heading }}</h2>
     <p class="{% if include.type %}{% if include.type == 'full' %}lead m-0{% endif %}{% endif %}">
       {{ include.lead }}
