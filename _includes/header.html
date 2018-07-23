@@ -39,8 +39,8 @@
           </button>
         </div>
 
-        <div class="col-xs-12 col-lg-8 w-100">
-          <div class="flex-column align-items-start collapse navbar-collapse"
+        <div class="col-xs-12 col-lg-8 w-100 d-flex">
+          <div class="flex-column align-items-start collapse navbar-collapse d-lg-flex justify-content-center"
             id="navbarSupportedContent">
             <span class="d-none d-lg-block navbar-text ml-auto mt-0">
               {% if site.email %}
@@ -54,7 +54,7 @@
             <ul class="navbar-nav ml-auto px-4 px-lg-0">
               <!-- Hardcoded home link as page has no url -->
               <li class="nav-item{% if page.layout == 'home' %} active{% endif %}">
-                <a class="nav-link" href="{{ "/" | relative_url }}">Home
+                <a class="nav-link" href="{{ "/" | relative_url }}" title="Home page">Home
                   {% if item.url == "/" %}
                     <!-- For screen readers -->
                     <span class="sr-only">(current)</span>
@@ -93,7 +93,7 @@
                 {% else %}
                   <li class="nav-item
                   {% if page.url contains link.url %} active{% endif %}">
-                    <a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">
+                    <a class="nav-link" title="{{ link.title }}" href="{{ site.baseurl }}{{ link.url }}">
                       {{ link.title }}
                       {% if page.url contains link.url %}
                         <!-- For screen readers -->
