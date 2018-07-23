@@ -28,6 +28,7 @@ exclude:
 plugins:
 - jekyll-feed
 - jekyll-redirect-from
+- jekyll-sitemap
 - github-pages
 whitelist:
 - jekyll-redirect-from
