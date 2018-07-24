@@ -14,9 +14,11 @@
   <meta name="theme-color" content="#136677">
   <meta name="msapplication-TileColor" content="#00aba9">
   <meta name="msapplication-config" content="{{ site.img_dir }}browserconfig.xml">
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ site.description | escape }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <meta name="google-site-verification" content="KAn1JUPDvlFVVroy6hz-qbTB-3nbViSAdHX9fDkpLho" />
+
+  {%- include opengraph.html -%}
 
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script async>
