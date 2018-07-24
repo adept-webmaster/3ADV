@@ -16,9 +16,7 @@ description: We are 3ADV International Services Limited. We offer tailor-made so
   to help you source, manufacture, inspect, consolidate and ship your products.
 baseurl: 
 url: https://3advservices.com
-address: Andrew James UK Ltd, Floor 3, 2 Lighthouse View, Spectrum Business Park,
-  Seaham, SR7 7PR
-phone: '0191 377 8358'
+address: 7-8 Fox Cover Industrial Estate, Admiralty Way, Seaham, SR7 7DN, United Kingdom
 markdown: kramdown
 img_dir: "/uploads/"
 exclude:
