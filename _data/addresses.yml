@@ -1,8 +1,13 @@
-- title: Foxcover Address
+- title: UK Address
   lineone: 7-8 Fox Cover Industrial Estate
   linetwo: Admiralty Way
   county: Seaham
   zip: SR7 7DN
   country: United Kingdom
 - title: Hong Kong Address
-  lineone: 
+  lineone: Room 5-15
+  linetwo: 13A/F South Tower
+  street: 17 Canton Road
+  county: Tsam Sha Tsui
+  area: Kowloon
+  country: Hong Kong

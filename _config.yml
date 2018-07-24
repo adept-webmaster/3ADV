@@ -11,12 +11,13 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: equalizer@3advservices.com
+email: contact@3advservices.com
 description: We are 3ADV International Services Limited. We offer tailor-made solutions
   to help you source, manufacture, inspect, consolidate and ship your products.
 baseurl: 
 url: https://3advservices.com
-address: 7-8 Fox Cover Industrial Estate, Admiralty Way, Seaham, SR7 7DN, United Kingdom
+address: Room 5-15, 13A/F South Tower, World Finance Centre, Harbour City, 17 Canton
+  Road, Tsim Sha Tsui, Kowloon, Hong Kong
 markdown: kramdown
 img_dir: "/uploads/"
 exclude:

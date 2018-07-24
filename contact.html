@@ -71,16 +71,24 @@ show: true
 </div>
 
 <div class="row w-100" markdown="0">
-  <div class="col">
-    <div class="row justify-content-between w-100 m-0">
+  <div class="col-lg">
+    <div class="row w-100 m-0">
       {% for address in site.data.addresses %}
         <div class="col-lg">
-          <h2>Contact Us</h2>
+          <h2>{{ address.title }}</h2>
           <ul class="list-unstyled">
             <li>{{ address.lineone }}</li>
             <li>{{ address.linetwo }}</li>
+            {% if address.street %}
+              <li>{{ address.street }}</li>
+            {% endif %}
             <li>{{ address.county }}</li>
-            <li>{{ address.zip }}</li>
+            {% if address.zip %}
+              <li>{{ address.zip }}</li>
+            {% endif %}
+            {% if address.area %}
+              <li>{{ address.area }}</li>
+            {% endif %}
             <li>{{ address.country }}</li>
           </ul>
         </div>
