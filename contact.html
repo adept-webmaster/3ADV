@@ -17,56 +17,74 @@ show: true
   <form action="https://formspree.io/victor.yuen@3advservices.com" method="POST">
     <input type="hidden" name="_cc" value="andy.bennett@3advservices.com" />
 
-    <label class="form-group has-float-label">
-      <input
-      type="text"
-      placeholder="Full name"
-      name="name"
-      id="name"
-      class="form-control form-control-lg"
-      autocomplete="name"
-      >
-      <span>Name</span>
-    </label>
+    <div class="row">
+      <div class="col">
+        <label class="form-group has-float-label">
+          <input
+          type="text"
+          placeholder="Name"
+          name="name"
+          id="name"
+          class="form-control form-control-lg rounded-0"
+          autocomplete="name"
+          >
+          <span>Name</span>
+        </label>
+      </div>
+      <div class="col">
+        <label class="form-group has-float-label">
+          <input
+          type="tel"
+          placeholder="Phone Number"
+          name="phone"
+          id="phone"
+          class="form-control form-control-lg rounded-0"
+          autocomplete="tel"
+          >
+          <span>Phone Number</span>
+        </label>
+      </div>
+    </div>
 
-    <label class="form-group has-float-label">
-      <input type="email"
-      placeholder="Email address"
-      name="email"
-      id="email"
-      class="form-control form-control-lg"
-      autocomplete="email"
-      >
-      <span>Email address</span>
-    </label>
+      <label class="form-group has-float-label">
+        <input type="email"
+        placeholder="Email address"
+        name="email"
+        id="email"
+        class="form-control form-control-lg rounded-0"
+        autocomplete="email"
+        >
+        <span>Email address</span>
+      </label>
 
-    <label class="form-group has-float-label">
-      <textarea class="form-control form-control-lg" placeholder="Your message" name="message" id="message" rows="3" class="form-control"></textarea>
-      <span>Message</span>
-    </label>
+      <label class="form-group has-float-label">
+        <textarea class="form-control form-control-lg rounded-0" placeholder="Your message" name="message" id="message" rows="3" class="form-control"></textarea>
+        <span>Message</span>
+      </label>
 
-    <button type="submit" class="btn btn-lg btn-block btn-primary" value="Send">Submit</button>
-    <span class="mt-3 d-block">Please be aware that your details will be sent through Formspree, which
-    is a service used by us to send enquiries through to the correct people.
-    <a href="http://docs.formspree.io/files/privacy.pdf" target="_blank">Please view their privacy policy by clicking here for more information.</a></span>
+      <button type="submit" class="btn btn-lg btn-block btn-primary rounded-0" value="Send">Submit</button>
+      <span class="mt-3 d-block">Please be aware that your details will be sent through Formspree, which
+      is a service used by us to send enquiries through to the correct people.
+      <a href="http://docs.formspree.io/files/privacy.pdf" target="_blank">Please view their privacy policy by clicking here for more information.</a></span>
+    </div>
   </form>
 </div>
 
 <div class="row w-100" markdown="0">
   <div class="col">
     <div class="row justify-content-between w-100 m-0">
-      {% for i in (1..3) %}
+      {% for address in site.data.addresses %}
         <div class="col-lg">
           <h2>Contact Us</h2>
           <ul class="list-unstyled">
-            <li>Andrew James UK Ltd</li>
-            <li>Floor 3, 2 Lighthouse View</li>
-            <li>Spectrum Business Park</li>
-            <li>Seaham</li>
-            <li>SR7 7PR</li>
+            <li>{{ address.lineone }}</li>
+            <li>{{ address.linetwo }}</li>
+            <li>{{ address.county }}</li>
+            <li>{{ address.zip }}</li>
+            <li>{{ address.country }}</li>
           </ul>
         </div>
-      {% endfor %}
+        {% endfor %}
     </div>
   </div>
 </div>

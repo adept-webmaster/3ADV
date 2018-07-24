@@ -9,9 +9,11 @@
             {{ site.email | escape }}
           {%- endif -%}
 
+          {% comment %}
           {% if site.phone %}
             {{ site.phone | escape }}
           {% endif %}
+          {% endcomment %}
           </span>
         </div>
       </div>
@@ -44,12 +46,14 @@
             id="navbarSupportedContent">
             <span class="d-none d-lg-block navbar-text ml-auto mt-0">
               {% if site.email %}
-                {{ site.email | escape }}
+                <a class="email" href="mailto:{{ site.email | escape }}">{{ site.email | escape }}</a>
               {%- endif -%}
 
+              {% comment %}
               {% if site.phone %}
                 {{ site.phone | escape }}
               {% endif %}
+              {% endcomment %}
             </span>
             <ul class="navbar-nav ml-auto px-4 px-lg-0">
               <!-- Hardcoded home link as page has no url -->
