@@ -35,13 +35,13 @@ show: true
         <label class="form-group has-float-label">
           <input
           type="tel"
-          placeholder="Phone Number"
+          placeholder="Phone"
           name="phone"
           id="phone"
           class="form-control form-control-lg rounded-0"
           autocomplete="tel"
           >
-          <span>Phone Number</span>
+          <span>Phone</span>
         </label>
       </div>
     </div>
@@ -71,30 +71,26 @@ show: true
 </div>
 
 <div class="row w-100" markdown="0">
-  <div class="col-lg">
-    <div class="row w-100 m-0">
-      {% for address in site.data.addresses %}
-        <div class="col-lg">
-          <h2>{{ address.title }}</h2>
-          <ul class="list-unstyled">
-            <li>{{ address.lineone }}</li>
-            <li>{{ address.linetwo }}</li>
-            {% if address.street %}
-              <li>{{ address.street }}</li>
-            {% endif %}
-            <li>{{ address.county }}</li>
-            {% if address.zip %}
-              <li>{{ address.zip }}</li>
-            {% endif %}
-            {% if address.area %}
-              <li>{{ address.area }}</li>
-            {% endif %}
-            <li>{{ address.country }}</li>
-          </ul>
-        </div>
-        {% endfor %}
+  {% for address in site.data.addresses %}
+    <div class="col-lg">
+      <h2>{{ address.title }}</h2>
+      <ul class="list-unstyled">
+        <li>{{ address.lineone }}</li>
+        <li>{{ address.linetwo }}</li>
+        {% if address.street %}
+          <li>{{ address.street }}</li>
+        {% endif %}
+        <li>{{ address.county }}</li>
+        {% if address.zip %}
+          <li>{{ address.zip }}</li>
+        {% endif %}
+        {% if address.area %}
+          <li>{{ address.area }}</li>
+        {% endif %}
+        <li>{{ address.country }}</li>
+      </ul>
     </div>
-  </div>
+  {% endfor %}
 </div>
 
 <div class="embed-responsive embed-responsive-16by9">
