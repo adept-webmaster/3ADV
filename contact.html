@@ -13,11 +13,11 @@ show: true
   assistance and advice at any stage of the supply chain.
 </div>
 
-<div class="col-lg-9 py-5">
+<div class="col-lg-9 pt-3">
   <form action="https://formspree.io/victor.yuen@3advservices.com" method="POST">
     <input type="hidden" name="_cc" value="andy.bennett@3advservices.com" />
 
-    <div class="row">
+    <div class="form-row">
       <div class="col">
         <label class="form-group has-float-label">
           <input
@@ -40,8 +40,12 @@ show: true
           id="phone"
           class="form-control form-control-lg rounded-0"
           autocomplete="tel"
+          aria-describedby="phoneHelpBlock"
           >
           <span>Phone</span>
+          <small id="phoneHelpBlock" class="form-text text-muted">
+            If you would like us to contact you via phone, please input your phone number above, including the area code.
+          </small>
         </label>
       </div>
     </div>
@@ -69,6 +73,8 @@ show: true
     </div>
   </form>
 </div>
+
+<hr class="my-4">
 
 <div class="row w-100" markdown="0">
   {% for address in site.data.addresses %}
