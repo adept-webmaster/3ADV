@@ -1,4 +1,4 @@
-<div class="jumbotron rounded-0{% if include.type %}{% if include.type == 'full' %} jumbotron-fluid{% endif %}{% endif %}{% if include.class %} {{ include.class }}{% endif %} lazyload js"
+<div class="jumbotron container rounded-0{% if include.type %}{% if include.type == 'full' %} jumbotron-fluid{% endif %}{% endif %}{% if include.class %} {{ include.class }}{% endif %} lazyload js"
 style="background: {% if include.overlay %}{% if include.overlay == 'true' %}linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),{% endif %}{% endif %}
                     url('{{ site.img_dir }}{{ include.bg_image }}') no-repeat {{ include.bg_position }} / {{ include.bg_size }};
       color: {% if include.text_color %}{{ include.text_color }};{% else %}#ffffff;{% endif %}">
