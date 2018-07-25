@@ -6,7 +6,7 @@
     {% capture service_alt %}{{ service.title }}{% endcapture %}
     {% capture service_class %}img-fluid img-cover services--grid-item-image{% endcapture %}
 
-    <div class="col-lg services--grid-item mb-3 mb-lg-0{% if forloop.first %} pl-lg-0{% elsif forloop.last %} pr-lg-0{% endif %}">
+    <div class="col-lg services--grid-item come-in-view come-in-up mb-3 mb-lg-0{% if forloop.first %} pl-lg-0{% elsif forloop.last %} pr-lg-0{% endif %}">
       <a href="/services#{{ service.title | slugify }}" title="{{ service.title }}">
         {% include image.html name=service_image alt=service_alt class=service_class %}
         <noscript>

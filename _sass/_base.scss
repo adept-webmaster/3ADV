@@ -52,3 +52,15 @@ a {
   min-width: 100% !important;
   min-height: 100% !important;
 }
+
+.come-in-view.come-in-left.come-in {
+  @include fadeInLeft(
+    $function: cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  );
+}
+
+.come-in-view.come-in-up.come-in {
+  @include fadeInUp(
+    $function: cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  );
+}

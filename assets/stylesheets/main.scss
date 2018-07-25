@@ -9,19 +9,19 @@
   "vendor/bootstrap/bootstrap/variables",
   "vendor/bootstrap/bootstrap/mixins";
 
+  //animate
+  @import
+    "vendor/animate/_properties";
+
+  @import
+    "vendor/animate/_fading-entrances/fading-entrances";
+
 @import
   "variables",
   "typography",
   "images",
   "forms",
   "base";
-
-//animate
-@import
-  "vendor/animate/_properties";
-
-@import
-  "vendor/animate/_fading-entrances/fading-entrances";
 
 /*===== COMPONENTS =====*/
 @import
