@@ -63,6 +63,8 @@ lazySizesConfig.loadMode = 1;
      return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
    };
 
+   objectFitImages();
+
 })(jQuery);
 
 
