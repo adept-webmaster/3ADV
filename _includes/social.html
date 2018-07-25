@@ -22,7 +22,7 @@
       <span class="fa-li">
         <i class="fas fa-envelope"></i>
       </span>
-      {{ site.email | escape }}
+      <a class="text-light" href="{{ site.email | escape }}" title="Email">{{ site.email | escape }}</a>
     </li>
   {%- endif -%}
 </ul>

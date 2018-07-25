@@ -3,8 +3,6 @@
 
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700');
-
 //animate
 @import "vendor/animate/_properties";
 
@@ -13,7 +11,9 @@
 
 //Important, this import must go here
 @import
-  "vendor/bootstrap/bootstrap/functions";
+  "vendor/bootstrap/bootstrap/functions",
+  "vendor/bootstrap/bootstrap/variables",
+  "vendor/bootstrap/bootstrap/mixins";
 
 @import
   "variables",
@@ -51,11 +51,6 @@ overrides*/
 //Floating labels
 @import
   "vendor/floating-labels/bootstrap-float-label";
-
-//Bootstrap
-@import
-  "vendor/bootstrap/bootstrap/variables",
-  "vendor/bootstrap/bootstrap/mixins";
 
 @import
   "vendor/bootstrap/bootstrap/root",
