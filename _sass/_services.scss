@@ -9,11 +9,13 @@
 }
 
 .services--row-item {
+  &.come-in-view.come-in-up {
+    @include fadeIn(
+      $delay: 0.5s
+    );
+  }
+
   .services--row-item-image {
     height: 300px;
   }
-}
-
-.services--row-item.lazyloaded {
-  @include fadeIn();
 }
