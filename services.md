@@ -31,7 +31,7 @@ layout: static-page
 {% include noscript-image.html name=service_image alt=service_title class='img-fluid img-cover services--row-item-image' %}
 {% endcapture %}
 
-<div class="row services--row-item mb-5 flex-column lazyload js" id="{{ service_title | slugify }}" data-expand="-100">
+<div class="col-12 services--row-item mb-5 flex-column lazyload js" id="{{ service_title | slugify }}" data-expand="-100">
 {{ service_image_include }}
 
 ## {{ service.title }}
@@ -39,7 +39,7 @@ layout: static-page
 </div>
 
 <noscript>
-<div class="row services--row-item mb-5 flex-column" data-expand="-100">
+<div class="col-12 services--row-item mb-5 flex-column" data-expand="-100">
 {{ noscript_service_image_include }}
 
 ## {{ service.title }}
