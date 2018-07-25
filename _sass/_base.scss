@@ -2,6 +2,24 @@ html, body {
   overflow-x: hidden;
 }
 
+a,
+button,
+[role="button"],
+input,
+label,
+select,
+textarea {
+  touch-action: manipulation;
+}
+
+a {
+  transition: opacity .2s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
 .fluid-container {
   max-width: 2560px;
   margin: 0 auto;

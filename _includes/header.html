@@ -44,9 +44,9 @@
         <div class="col-xs-12 col-lg-8 w-100 d-flex">
           <div class="flex-column align-items-start collapse navbar-collapse d-lg-flex justify-content-center"
             id="navbarSupportedContent">
-            <span class="d-none d-lg-block navbar-text ml-auto mt-0">
+            <span class="navbar-nav nav-item d-none d-lg-block navbar-text ml-auto mt-0">
               {% if site.email %}
-                <a class="email" href="mailto:{{ site.email | escape }}">{{ site.email | escape }}</a>
+                <a class="nav-link p-0" href="mailto:{{ site.email | escape }}">{{ site.email | escape }}</a>
               {%- endif -%}
 
               {% comment %}

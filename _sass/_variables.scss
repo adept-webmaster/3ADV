@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+
 //Custom SCSS variables
 $color-brand-primary: #14303D; //grey
 $color-brand-logo: #2C7D99; //blue
@@ -26,6 +28,7 @@ $link-color: theme-color("logo");
 $font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont,
                          "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
                          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-base: $font-family-sans-serif;
 $headings-font-weight: 700;
 
 /*===== BORDERS =====*/
@@ -37,5 +40,7 @@ $border-radius-sm: .3rem;
 $navbar-padding-y: .75rem;
 $nav-link-padding-x: 1.75rem;
 $navbar-nav-link-padding-x: $nav-link-padding-x;
+$navbar-light-color: rgba($black, .6);
+$navbar-light-hover-color: rgba($black, .9);
 $navbar-light-toggler-border-color: transparent;
 $navbar-light-active-color: $color-brand-logo;
