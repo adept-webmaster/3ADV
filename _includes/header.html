@@ -4,9 +4,9 @@
 
       <div class="row w-100 d-block d-lg-none m-0">
         <div class="col">
-          <span class="pb-0 mt-0 ml-auto w-100 text-center navbar-text">
+          <span class="navbar-nav nav-item py-2 mt-0 ml-auto w-100 text-center navbar-text">
           {% if site.email %}
-            {{ site.email | escape }}
+            <a href="mailto:{{ site.email | escape }}" class="nav-link p-0">{{ site.email | escape }}</a>
           {%- endif -%}
 
           {% comment %}
@@ -19,13 +19,13 @@
       </div>
 
       <div class="row w-100 m-0">
-        <div class="col">
-          <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
-            {% include noscript-image.html name="3adv-logo.png" alt="3ADV Logo" %}
+        <div class="col-5">
+          <a class="navbar-brand m-0" rel="author" href="{{ "/" | relative_url }}">
+            {% include noscript-image.html name="3adv-logo.png" class="m-0" alt="3ADV Logo" %}
           </a>
         </div>
 
-        <div class="col d-flex justify-content-end">
+        <div class="col-7 d-lg-none d-flex justify-content-end">
           <button class="hamburger hamburger--spring navbar-toggler
             d-flex d-lg-none align-items-center"
             type="button"
@@ -41,7 +41,7 @@
           </button>
         </div>
 
-        <div class="col-xs-12 col-lg-8 w-100 d-flex">
+        <div class="col-xs-12 col-lg-7 w-100 d-flex">
           <div class="flex-column align-items-start collapse navbar-collapse d-lg-flex justify-content-center"
             id="navbarSupportedContent">
             <span class="navbar-nav nav-item d-none d-lg-block navbar-text ml-auto mt-0">
@@ -55,7 +55,7 @@
               {% endif %}
               {% endcomment %}
             </span>
-            <ul class="navbar-nav ml-auto px-4 px-lg-0">
+            <ul class="navbar-nav ml-auto p-4 p-lg-0">
               <!-- Hardcoded home link as page has no url -->
               <li class="nav-item{% if page.layout == 'home' %} active{% endif %}">
                 <a class="nav-link" href="{{ "/" | relative_url }}" title="Home page">Home
