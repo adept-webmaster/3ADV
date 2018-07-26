@@ -15,14 +15,17 @@
     }
   }
 
+
   .jumbotron--content-box {
     p > span.dot {
       font-size: 12px;
       position: relative;
       bottom: 3px;
     }
+  }
 
-    &.come-in-view.come-in-left.come-in {
+  .jumbotron.lazyloaded {
+    & > .come-in-view.come-in-left.come-in {
       @include fadeInLeft(
         $delay: 0.5s
       );
