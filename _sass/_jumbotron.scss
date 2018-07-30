@@ -15,15 +15,6 @@
     }
   }
 
-
-  .jumbotron--content-box {
-    p > span.dot {
-      font-size: 12px;
-      position: relative;
-      bottom: 3px;
-    }
-  }
-
   .jumbotron.lazyloaded {
     & > .come-in-view.come-in-left.come-in {
       @include fadeInLeft(
