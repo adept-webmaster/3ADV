@@ -1,6 +1,6 @@
 ---
 title: 3ADV International Services Limited
-timezone: UTC
+timezone: GB
 collections:
   posts:
     title: Posts
@@ -16,6 +16,10 @@ description: We are 3ADV International Services Limited. We offer tailor-made so
   to help you source, manufacture, inspect, consolidate and ship your products.
 baseurl: 
 url: https://3advservices.com
+logo: "/uploads/hotlink-ok/3ADVLOGO.png"
+webmaster_verifications:
+  google: KAn1JUPDvlFVVroy6hz-qbTB-3nbViSAdHX9fDkpLho
+lang: en_GB
 address: Room 5-15, 13A/F South Tower, World Finance Centre, Harbour City, 17 Canton
   Road, Tsim Sha Tsui, Kowloon, Hong Kong
 markdown: kramdown
@@ -26,6 +30,7 @@ plugins:
 - jekyll-feed
 - jekyll-redirect-from
 - jekyll-sitemap
+- jekyll-seo-tag
 - github-pages
 whitelist:
 - jekyll-redirect-from

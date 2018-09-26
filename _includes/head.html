@@ -14,18 +14,14 @@
   <meta name="theme-color" content="#136677">
   <meta name="msapplication-TileColor" content="#00aba9">
   <meta name="msapplication-config" content="{{ site.img_dir }}browserconfig.xml">
-  <meta name="description" content="{{ site.description | escape }}">
-  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
-  <meta name="google-site-verification" content="KAn1JUPDvlFVVroy6hz-qbTB-3nbViSAdHX9fDkpLho" />
 
   {% include fav.html %}
-  {%- include opengraph.html -%}
 
   <script src="{{ "/assets/scripts/lazysizes.min.js" | relative_url }}"></script>
 
   <link rel="preload" href="{{ "assets/stylesheets/main.css" | relative_url }}" as="style">
   <link rel="preload" as="font" type="font/woff2" href="{{ "assets/stylesheets/webfonts/fa-solid-900.woff2" | relative_url }}">
-  
+
   <!-- Critical CSS -->
   {%- if jekyll.environment == 'production' -%}
     <style type="text/css">
