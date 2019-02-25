@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.email = ["hello@jonsuh.com".freeze]
   s.homepage = "https://jonsuh.com/hamburgers".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "2.7.6".freeze
+  s.rubygems_version = "2.7.7".freeze
   s.summary = "Tasty CSS-animated Hamburgers".freeze
 
-  s.installed_by_version = "2.7.6" if s.respond_to? :installed_by_version
+  s.installed_by_version = "2.7.7" if s.respond_to? :installed_by_version
 end
