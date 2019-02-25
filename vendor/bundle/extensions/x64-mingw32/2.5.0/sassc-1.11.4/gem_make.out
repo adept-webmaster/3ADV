@@ -1,7 +1,0 @@
-current directory: C:/Users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/gems/sassc-1.11.4/ext
-rake RUBYARCHDIR=C:/Users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/extensions/x64-mingw32/2.5.0/sassc-1.11.4 RUBYLIBDIR=C:/Users/liam.cooper.AJLOCAL/Documents/3adv/3ADV/vendor/bundle/extensions/x64-mingw32/2.5.0/sassc-1.11.4
-C:/Ruby25-x64/lib/ruby/site_ruby/2.5.0/rubygems.rb:289:in `find_spec_for_exe': can't find gem rake (>= 0.a) with executable rake (Gem::GemNotFoundException)
-	from C:/Ruby25-x64/lib/ruby/site_ruby/2.5.0/rubygems.rb:308:in `activate_bin_path'
-	from C:/Ruby25-x64/bin/rake:23:in `<main>'
-
-rake failed, exit code 1
