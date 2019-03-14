@@ -4,15 +4,13 @@ source "https://rubygems.org"
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
-gem "jekyll"
+gem "jekyll", '~> 3.7.4'
 
 # Bootstrap
 gem 'bootstrap', '~> 4.3.1'
 
 # Vendor stuff
 gem 'hamburgers', "~> 1.1.3"
-
-gem "actionview", ">= 4.2.11.1"
 
 group :jekyll_plugins do
   gem 'jekyll-redirect-from'
